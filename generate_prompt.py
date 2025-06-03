@@ -13,8 +13,8 @@ def generate_prompts():
     context = data.get('context')
 
     prompt_text = (
-        f"Tu es un assistant PromptBase. "
-        f"Génère un template avec des variables entre [crochets] pour le thème '{theme}' "
+        f"Tu es un assistant Midjourney. "
+        f"Génère un template avec entre 3 et 5 variables entre [crochets] pour la génération d'images sur le thème '{theme}' "
         f"et le contexte '{context}'. "
         f"Propose aussi 9 exemples variés, un titre SEO de 40 caractères max, "
         f"une description en anglais (500 caractères max), "
